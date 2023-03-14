@@ -1,0 +1,107 @@
+.restaurants{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 56px;
+    font-style: inherit;
+  }
+  
+  .bef_the_pic{
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    font-style: inherit;
+    font-size: 22px;
+    line-height: 34px;
+    width: 100%;
+  }
+  
+  .bef_the_pic p{
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .rest a{
+    width: 100%;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .rest>form>a>*{
+    margin-top: 8px;
+  }
+  
+  .name{
+    line-height: 24px;
+    font-size: 16px;
+  }
+  
+  .def{
+    font-size: 14px;
+    color: #626262;
+  }
+  
+  .time{
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  
+  .time, .def{
+    line-height: 21px;
+  }
+  
+  .name, .time{
+    color: #1D1D1D;
+    font-weight: bold;
+  }
+  
+  .name, .def, .time{
+    cursor: default;
+    margin-top: 8px;
+  }
+  
+  .rest{
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+
+  .rest>form>a>img{
+    width: 100%;
+  }
+  
+  .rest form:hover{
+    position: relative;
+    background: rgba(185, 185, 185, 0.37);
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .pic_anim{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .pic_anim a img{
+    transition: .3s ease-in;
+    margin-top: 0;
+  }
+
+  .pic_anim a img:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+  }
+
+  .rest img:hover{
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  .pic_rest{
+    width: 100%;
+  } 
+
+  @media (max-width: 576px ){
+    .container, .rest img, input[type=text]{
+      width: 100%;
+    }
+  }
+

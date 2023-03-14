@@ -1,0 +1,11 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+  display: flex;
+  max-width: 956px;
+  margin: 0px auto;
+  padding: 0px;
+}

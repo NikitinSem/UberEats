@@ -1,0 +1,11 @@
+/* General */
+@import "css/reset.css" screen;
+@import "css/common.css" screen;
+@import "css/header.css" screen;
+@import "css/footer.css" screen;
+
+/* Home page */
+@import "css/UberEats_index.css" screen;
+
+/* Трактир "Пушкин" */
+@import "css/Pushkin_tractir.css"
