@@ -7,15 +7,15 @@
       name="viewport"
       content="width=device-width, height=device-height, initial-scale=1.0"
     />
-    <title>Трактир «Пушкин»</title>
+    <title>UberEats</title>
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"/>
     <link rel="stylesheet" href="uberEats_css.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"/>
-
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -36,506 +36,93 @@
       </div>
     </header>
 
-    <div class="hero_pic">
-      <div class="container">
-        <div class="col-lg-5 col-md-7 col-sm-12 col-xs-12 card_hero">
-          <h1 class="">Трактир «Пушкин»</h1>
-          <div class="row between-lg between-md between-xs">
-            <p class="col center-lg center-md center-xs middle-lg middle-md middle-xs def">₽₽ • Европейская</p>
-          <span class="col center-lg center-md center-xs middle-lg middle-md middle-xs time ellipse">40 - 50 мин</span>
-          </div>
-        </div>
+    <div class="container">
+      <div class="search row middle-xl middle-lg middle-md middle-xs center-xl center-lg center-md center-xs">
+        <form action="#" method="get">
+          <input type="text" placeholder="Поиск по ресторанам и кухням" />
+        </form>
       </div>
     </div>
 
-    <div class="container">
-      <div class="nav_tabs row between-lg">
-
-        <!-- Табы/вкладки слайдера -->
-        <input class="nav_input col-lg col-md col-sm" id="tab1" type="radio" name="tabs" checked>
-        <label onclick="current_slide(1)" class="slider_nav col-lg col-sm col-xs-4" for="tab1">Закуски</label>
-          
-        <input class="nav_input col-lg col-md col-sm" id="tab2" type="radio" name="tabs">
-        <label onclick="current_slide(2)" class="slider_nav col-lg col-sm col-xs-4" for="tab2">Салаты</label>
-          
-        <input class="nav_input col-lg col-md col-sm" id="tab3" type="radio" name="tabs">
-        <label onclick="current_slide(3)" class="slider_nav col-lg col-sm col-xs-4" for="tab3">Супы</label>
-          
-        <input class="nav_input col-lg col-md col-sm" id="tab4" type="radio" name="tabs">
-        <label onclick="current_slide(4)" class="slider_nav col-lg col-sm col-xs-4" for="tab4">Горячие блюда</label>
-
-        <input class="nav_input col-lg col-md col-sm" id="tab5" type="radio" name="tabs">
-        <label onclick="current_slide(5)" class="slider_nav col-lg col-sm col-xs-4" for="tab5">Гарниры</label>
-          
-        <input class="nav_input col-lg col-md col-sm" id="tab6" type="radio" name="tabs">
-        <label onclick="current_slide(6)" class="slider_nav col-lg col-sm col-xs-4" for="tab6">Десерты</label>
-        <!--  -->
-
-        <!-- Контент слайда -->
-        <div class="row viewport">
-          <div class="slides">
-            <section class="slide col">
-              <h3>Закуски</h3>
-              <div class="row cards">
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                    <div class="deffinition">
-                      <p>Сельдь на бородинском хлебе</p>
-                      <p class="extra_deff">С яйцом и огурцом</p>
-                      <div>
-                        <p>240 ₽</p>
-                      </div>
-                    </div>
-                    <div class="dishFoto">
-                      <img src="images/Herring.png" alt="">
-                    </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Соленья ассорти</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Pickles.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Грибы маринованные</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>300 ₽</p>
-                    </div>
-                    </div>
-                  <div class="dishFoto">
-                    <img src="images/Mushrooms.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Сало домашнее с горчицей</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salo.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Малосольная семга</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>390 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salmon.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Язык говяжий с хреном</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Tongue.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="slide col">
-              <h3>Салаты</h3>
-              <div class="row cards">
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                    <div class="deffinition">
-                      <p>Сельдь на бородинском хлебе</p>
-                      <p class="extra_deff">С яйцом и огурцом</p>
-                      <div>
-                        <p>241 ₽</p>
-                      </div>
-                    </div>
-                    <div class="dishFoto">
-                      <img src="images/Herring.png" alt="">
-                    </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Соленья ассорти</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Pickles.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Грибы маринованные</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>300 ₽</p>
-                    </div>
-                    </div>
-                  <div class="dishFoto">
-                    <img src="images/Mushrooms.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Сало домашнее с горчицей</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salo.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Малосольная семга</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>390 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salmon.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Язык говяжий с хреном</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Tongue.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="slide col">
-              <h3>Супы</h3>
-              <div class="row cards">
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                    <div class="deffinition">
-                      <p>Сельдь на бородинском хлебе</p>
-                      <p class="extra_deff">С яйцом и огурцом</p>
-                      <div>
-                        <p>242 ₽</p>
-                      </div>
-                    </div>
-                    <div class="dishFoto">
-                      <img src="images/Herring.png" alt="">
-                    </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Соленья ассорти</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Pickles.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Грибы маринованные</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>300 ₽</p>
-                    </div>
-                    </div>
-                  <div class="dishFoto">
-                    <img src="images/Mushrooms.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Сало домашнее с горчицей</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salo.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Малосольная семга</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>390 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salmon.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Язык говяжий с хреном</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Tongue.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="slide col">
-              <h3>Горячие блюда</h3>
-              <div class="row cards">
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                    <div class="deffinition">
-                      <p>Сельдь на бородинском хлебе</p>
-                      <p class="extra_deff">С яйцом и огурцом</p>
-                      <div>
-                        <p>243 ₽</p>
-                      </div>
-                    </div>
-                    <div class="dishFoto">
-                      <img src="images/Herring.png" alt="">
-                    </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Соленья ассорти</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Pickles.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Грибы маринованные</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>300 ₽</p>
-                    </div>
-                    </div>
-                  <div class="dishFoto">
-                    <img src="images/Mushrooms.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Сало домашнее с горчицей</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salo.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Малосольная семга</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>390 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salmon.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Язык говяжий с хреном</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Tongue.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="slide col">
-              <h3>Гарниры</h3>
-              <div class="row cards">
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                    <div class="deffinition">
-                      <p>Сельдь на бородинском хлебе</p>
-                      <p class="extra_deff">С яйцом и огурцом</p>
-                      <div>
-                        <p>244 ₽</p>
-                      </div>
-                    </div>
-                    <div class="dishFoto">
-                      <img src="images/Herring.png" alt="">
-                    </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Соленья ассорти</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Pickles.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Грибы маринованные</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>300 ₽</p>
-                    </div>
-                    </div>
-                  <div class="dishFoto">
-                    <img src="images/Mushrooms.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Сало домашнее с горчицей</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salo.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Малосольная семга</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>390 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salmon.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Язык говяжий с хреном</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Tongue.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="slide col">
-              <h3>Десерты</h3>
-              <div class="row cards">
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                    <div class="deffinition">
-                      <p>Сельдь на бородинском хлебе</p>
-                      <p class="extra_deff">С яйцом и огурцом</p>
-                      <div>
-                        <p>245 ₽</p>
-                      </div>
-                    </div>
-                    <div class="dishFoto">
-                      <img src="images/Herring.png" alt="">
-                    </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Соленья ассорти</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Pickles.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Грибы маринованные</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>300 ₽</p>
-                    </div>
-                    </div>
-                  <div class="dishFoto">
-                    <img src="images/Mushrooms.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Сало домашнее с горчицей</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salo.png" alt="">
-                  </div>
-                </div>
-                <div class="card r_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Малосольная семга</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>390 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Salmon.png" alt="">
-                  </div>
-                </div>
-                <div class="card l_margin col-lg-6 col-md-12 col-sm-12">
-                  <div class="deffinition">
-                    <p>Язык говяжий с хреном</p>
-                    <p class="extra_deff"></p>
-                    <div>
-                      <p>320 ₽</p>
-                    </div>
-                  </div>
-                  <div class="dishFoto">
-                    <img src="images/Tongue.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </section>
+    <div class="container restaurants">
+      <div class="row bef_the_pic">
+        <div class="col">
+          <p><b>Рестораны в Москве</b></p>
+        </div>
+      </div>
+      <div class="pic_rest">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 rest">
+            <form class="pic_anim">
+              <a href="Pushkin_traktir.html"><img class="transition-fix" src="images\macdonalds.png" alt="Макдональдс" /></a>
+              <p class="name">Макдональдс - Газетный</p>
+              <p class="def">₽₽ • Бургеры</p>
+              <p class="time">25 - 35 мин</p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 rest">
+            <form class="pic_anim">
+              <a href="Pushkin_traktir.html"><img src="images\dimsum.png" alt="DimSum & Co" /></a>
+              <p class="name">DimSum & Co — ЦДМ</p>
+              <p class="def">₽ • Японская • Китайская • Азиатская</p>
+              <p class="time">40 - 50 мин</p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 rest">
+            <form class="pic_anim">
+              <a href="Pushkin_traktir.html"><img src="images\dvigok.png" alt="ДвижОК" /></a>
+              <p class="name">ДвижОК — Манежная</p>
+              <p class="def">₽ • Американская • Европейская</p>
+              <p class="time">35 - 45 мин</p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 rest">
+            <form class="pic_anim">
+              <a href="Pushkin_traktir.html"><img src="images\nya.png" alt="НЯ — NHA" /></a>
+              <p class="name">НЯ — NHA</p>
+              <p class="def">₽₽ • Вьетнамская</p>
+              <p class="time">30 - 40 мин</p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 rest">
+            <form class="pic_anim">
+              <a href="Pushkin_traktir.html"><img src="images\tochka.png" alt="Точка Дзы" /></a>
+              <p class="name">Точка Дзы — Цветной</p>
+              <p class="def">₽₽ • Вьетнамская</p>
+              <p class="time">40 - 50 мин</p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 rest">
+            <form class="pic_anim">
+              <a href="Pushkin_traktir.html"><img src="images\cinnabon.png" alt="Cinnabon" /></a>
+              <p class="name">Cinnabon</p>
+              <p class="def">₽ • Выпечка • Десерты • Капкейки</p>
+              <p class="time">25 - 35 мин</p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 rest">
+            <form class="pic_anim">
+              <a href="Pushkin_traktir.html"><img src="images\pizzalove.png" alt="PIZZELOVE" /></a>
+              <p class="name">PIZZELOVE</p>
+              <p class="def">₽₽ • Пицца</p>
+              <p class="time">15 - 25 мин</p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 rest">
+            <form class="pic_anim">
+              <a href="Pushkin_traktir.html"><img src="images\zu.png" alt="Zю кафе" /></a>
+              <p class="name">Zю кафе — Тверская</p>
+              <p class="def">₽₽ • Японская</p>
+              <p class="time">25 - 35 мин</p>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 rest">
+            <form class="pic_anim">
+              <a href="Pushkin_traktir.html"><img src="images\barBQ.png" alt="macdonalds" /></a>
+              <p class="name">Bar BQ Cafe — Манежная</p>
+              <p class="def">₽₽₽ • Европейская</p>
+              <p class="time">30 - 40 мин</p>
+            </form>
           </div>
         </div>
       </div>
@@ -636,8 +223,5 @@
         <img src="images/btn-up.png" alt="UP">
       </a>
     </div>
-    <!-- Slider js -->
-    <script src="/Сайты/UberEats/JS/slider_js.js"></script>
-    <!--  -->
   </body>
 </html>
